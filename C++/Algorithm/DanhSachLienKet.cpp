@@ -27,7 +27,7 @@ void TAO_2(Node *&L){
 		code = scanf("%d",&x);
 		if(code){
 			Node *p = new (Node);
-			p->data = x;
+			p->data = x; 
 			p->link = NULL;
 			if(L==NULL){
 				L=p;
@@ -130,7 +130,7 @@ Node *sapXepChanTangDanDauDay(Node *T){
 	return p;
 }
 main(){
-	TAO(L);
+	TAO_2(L);
 //	CHEN(L, 100, TIM_X(L, 6));
 //	XOA(L, TIM_X(L, 4));
 //	Xoa_dequy(L, 5);
