@@ -43,15 +43,15 @@ bool checkChan(int n){
 	if(n%2==0) return true;
 	return false;
 }
-//void DUYET(Node *L){
-//	Node *p = L;
-//	int tong;
-//	while(p!= NULL){
-//		printf("%d\t",p->data);	
-//		p = p->link;
-//	}
-//	cout<<"\n";
-//}
+void DUYET(Node *L){
+	Node *p = L;
+	int tong;
+	while(p!= NULL){
+		printf("%d\t",p->data);	
+		p = p->link;
+	}
+	cout<<"\n";
+}
 void duyet(Node *p){
 	if(p == NULL) return ;
 	cout<<p->data<<" ";
